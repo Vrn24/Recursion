@@ -33,19 +33,14 @@ int sum(int k)
   
 }
 
-![image](https://github.com/Purvansha022609/Recursion-/assets/139473344/1ff781a1-1e99-477b-b054-b9196a5db7a3)
-
 Working of Recursion
 
 Recursion performs a number of repetitive calls to the function from within the function. The recursive condition performs the repeating calls to the function until the base case is met.The base case is present inside the function, and once the condition of the base case is satisfied, it stops the execution.
 
 Let’s understand it with a simple example. 
 
-![image](https://github.com/Purvansha022609/Recursion-/assets/139473344/dbdafe3e-799d-4308-be6d-5a57db4bccd3)
-
 In the factorial function, we have to perform many repetitive calls to the function. In this example, the recursive condition would be n*factorial(n-1); factorial is the function's name, and the value of n is 5. 
 
-![image](https://github.com/Purvansha022609/Recursion-/assets/139473344/f3bceb3d-6440-4d8c-b63a-4fae6695bf6d)
 
 First, in this function, 5 will be multiplied with factorial(5-1), then 4 is passed to the function. Similarly, in the next iteration, 4 is multiplied with factorial(4-1). This will continue till the value of n becomes 1.
 
